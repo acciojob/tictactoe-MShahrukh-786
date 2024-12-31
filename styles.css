@@ -1,1 +1,52 @@
 /*  your css code here. If applicable */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.player-names {
+  margin-bottom: 20px;
+}
+
+.player-names input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+
+.player-names button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.game-board {
+  display: none;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-top: 20px;
+}
+
+.cell {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background-color: #ccc;
+}
+
+.message {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
